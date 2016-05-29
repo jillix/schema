@@ -1,0 +1,8 @@
+{
+	"@context": {
+		"name": "http://schema.org/name",
+		"options": "http://schema.org/object",
+		"description": "https://meta.schema.org/description"
+	},
+	"@id": "https://schema.jillix.com/method"
+}
