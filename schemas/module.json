@@ -1,0 +1,9 @@
+{
+	"@context": {
+		"name": "http://schema.org/name",
+		"source": "http://schema.org/SoftwareSourceCode",
+		"package": "http://schema.org/SoftwareApplication",
+		"exports": "https://schema.jillix.com/method"
+	},
+	"@id": "https://schema.jillix.com/module"
+}
