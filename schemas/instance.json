@@ -1,11 +1,11 @@
 {
-	"@context": {
-		"name": "http://schema.org/name",
+    "@context": {
+        "name": "http://schema.org/name",
 		"module": "https://schema.jillix.com/module",
 		"listeners": "https://schema.jillix.com/listener",
 		"roles": "https://schema.jillix.com/role",
 		"config": "http://schema.org/object",
-		"load": "https://schema.jillix.com/emit"
+		"load": "https://schema.jillix.com/listener"
 	},
     "@id": "https://schema.jillix.com/instance"
 }
