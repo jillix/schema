@@ -1,0 +1,26 @@
+{
+  "name": "schema",
+  "version": "0.0.1",
+  "description": "jillix JSON-LD schemas",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jillix/schema.git"
+  },
+  "keywords": [
+    "json-ld",
+    "jillix"
+  ],
+  "author": "jillix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jillix/schema/issues"
+  },
+  "homepage": "https://github.com/jillix/schema#readme"
+}
