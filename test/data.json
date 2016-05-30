@@ -1,0 +1,195 @@
+{
+	"user": {
+		"nodes": [
+			{
+				"@context": "https://schema.org/Person",
+				"@type": "Person",
+				"id": "U1",
+				"label": "Youser"
+			},
+			{
+				"@context": "https://schema.org/Organization",
+				"@type": "Organization",
+				"id": "O1",
+				"label": "jillix"
+			},
+			{
+				"@context": "https://schema.jillix.org/Billing",
+				"@type": "Billing",
+				"id": "B1",
+				"label": "Billing Acount A"
+			},
+			{
+				"@context": "https://schema.jillix.org/Project",
+				"@type": "Project",
+				"id": "P1",
+				"label": "Project A"
+			}
+		],
+		"edges": [
+			{"from": "U1", "to": "O1"},
+			{"from": "U1", "to": "P1"},
+			{"from": "U1", "to": "B1"}
+		]
+	},
+	"organization": {
+		"nodes": [
+			{
+				"@context": "https://schema.org/Organization",
+				"@type": "Organization",
+				"id": "O1",
+				"label": "jillix"
+			},
+			{
+				"@context": "https://schema.jillix.org/Team",
+				"@type": "Team",
+				"id": "T1",
+				"label": "Owners"
+			},
+			{
+				"@context": "https://schema.jillix.org/Billing",
+				"@type": "Billing",
+				"id": "B1",
+				"label": "Billing Acount A"
+			},
+			{
+				"@context": "https://schema.jillix.org/Project",
+				"@type": "Project",
+				"id": "P1",
+				"label": "Project A"
+			}
+		],
+		"edges": [
+			{"from": "O1", "to": "T1"},
+			{"from": "O1", "to": "B1"},
+			{"from": "O1", "to": "P1"}
+		]
+	},
+	"team": {
+		"nodes": [
+			{
+				"@context": "https://schema.jillix.org/Team",
+				"@type": "Team",
+				"id": "T1",
+				"label": "Owners"
+			},
+			{
+				"@context": "https://schema.org/Person",
+				"@type": "Person",
+				"id": "U1",
+				"label": "Youser"
+			},
+			{
+				"@context": "https://schema.org/Person",
+				"@type": "Person",
+				"id": "U2",
+				"label": "Berta"
+			},
+			{
+				"@context": "https://schema.org/Person",
+				"@type": "Person",
+				"id": "U3",
+				"label": "Paco"
+			}
+		],
+		"edges": [
+			{"from": "T1", "to": "U1"},
+			{"from": "T1", "to": "U2"},
+			{"from": "T1", "to": "U3"}
+		]
+	},
+	"billing": {
+		"nodes": [
+			{
+				"@context": "https://schema.jillix.org/Billing",
+				"@type": "Billing",
+				"id": "B1",
+				"label": "Billing Acount A"
+			},
+			{
+				"@context": "https://schema.org/Organization",
+				"@type": "Organization",
+				"id": "O1",
+				"label": "jillix"
+			},
+			{
+				"@context": "https://schema.org/Person",
+				"@type": "Person",
+				"id": "U1",
+				"label": "Youser"
+			},
+			{
+				"@context": "https://schema.jillix.org/Project",
+				"@type": "Project",
+				"id": "P1",
+				"label": "Project A"
+			}
+		],
+		"edges": [
+			{"from": "B1", "to": "O1"},
+			{"from": "B1", "to": "U1"},
+			{"from": "B1", "to": "P1"}
+		]
+	},
+	"project": {
+		"nodes": [
+			{
+				"@context": "https://schema.jillix.org/Project",
+				"@type": "Project",
+				"id": "P1",
+				"label": "Project A"
+			},
+			{
+				"@context": "https://schema.jillix.org/Billing",
+				"@type": "Billing",
+				"id": "B1",
+				"label": "Billing Acount A"
+			},
+			{
+				"@context": "https://schema.org/Organization",
+				"@type": "Organization",
+				"id": "O1",
+				"label": "jillix"
+			},
+			{
+				"@context": "https://schema.org/Person",
+				"@type": "Person",
+				"id": "U1",
+				"label": "Youser"
+			}
+		],
+		"edges": [
+			{"from": "P1", "to": "B1"},
+			{"from": "P1", "to": "O1"},
+			{"from": "P1", "to": "U1"}
+		]
+	},
+	"domain": {
+		"nodes": [],
+		"edges": []
+	},
+	"store": {
+		"nodes": [],
+		"edges": []
+	},
+	"application": {
+		"nodes": [],
+		"edges": []
+	},
+	"module": {
+		"nodes": [],
+		"edges": []
+	},
+	"instance": {
+		"nodes": [],
+		"edges": []
+	},
+	"listener": {
+		"nodes": [],
+		"edges": []
+	},
+	"method": {
+		"nodes": [],
+		"edges": []
+	}
+}
