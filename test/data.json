@@ -5,25 +5,25 @@
 				"@context": "https://schema.org/Person",
 				"@type": "Person",
 				"id": "U1",
-				"label": "Youser"
+				"title": "Youser"
 			},
 			{
 				"@context": "https://schema.org/Organization",
 				"@type": "Organization",
 				"id": "O1",
-				"label": "jillix"
+				"title": "jillix"
 			},
 			{
 				"@context": "https://schema.jillix.org/Billing",
 				"@type": "Billing",
 				"id": "B1",
-				"label": "Billing Acount A"
+				"title": "Billing Acount A"
 			},
 			{
 				"@context": "https://schema.jillix.org/Project",
 				"@type": "Project",
 				"id": "P1",
-				"label": "Project A"
+				"title": "Project A"
 			}
 		],
 		"edges": [
