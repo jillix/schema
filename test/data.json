@@ -1,199 +1,129 @@
 {
-	"user": {
-		"nodes": [
-			{
-				"@context": "https://schema.org/Person",
-				"@type": "Person",
-				"id": "U1",
-				"title": "Youser",
-				"label": "Youser"
-			},
-			{
-				"@context": "https://schema.org/Organization",
-				"@type": "Organization",
-				"id": "O1",
-				"title": "jillix",
-				"label": "jillix"
-			},
-			{
-				"@context": "https://schema.jillix.org/Billing",
-				"@type": "Billing",
-				"id": "B1",
-				"title": "Billing Acount A",
-				"label": "Billing Acount A"
-			},
-			{
-				"@context": "https://schema.jillix.org/Project",
-				"@type": "Project",
-				"id": "P1",
-				"title": "Project A",
-				"label": "Project A"
-			}
-		],
-		"edges": [
-			{"from": "U1", "to": "O1"},
-			{"from": "U1", "to": "P1"},
-			{"from": "U1", "to": "B1"}
-		]
-	},
-	"organization": {
-		"nodes": [
-			{
-				"@context": "https://schema.org/Organization",
-				"@type": "Organization",
-				"id": "O1",
-				"label": "jillix"
-			},
-			{
-				"@context": "https://schema.jillix.org/Team",
-				"@type": "Team",
-				"id": "T1",
-				"label": "Owners"
-			},
-			{
-				"@context": "https://schema.jillix.org/Billing",
-				"@type": "Billing",
-				"id": "B1",
-				"label": "Billing Acount A"
-			},
-			{
-				"@context": "https://schema.jillix.org/Project",
-				"@type": "Project",
-				"id": "P1",
-				"label": "Project A"
-			}
-		],
-		"edges": [
-			{"from": "O1", "to": "T1"},
-			{"from": "O1", "to": "B1"},
-			{"from": "O1", "to": "P1"}
-		]
-	},
-	"team": {
-		"nodes": [
-			{
-				"@context": "https://schema.jillix.org/Team",
-				"@type": "Team",
-				"id": "T1",
-				"label": "Owners"
-			},
-			{
-				"@context": "https://schema.org/Person",
-				"@type": "Person",
-				"id": "U1",
-				"label": "Youser"
-			},
-			{
-				"@context": "https://schema.org/Person",
-				"@type": "Person",
-				"id": "U2",
-				"label": "Berta"
-			},
-			{
-				"@context": "https://schema.org/Person",
-				"@type": "Person",
-				"id": "U3",
-				"label": "Paco"
-			}
-		],
-		"edges": [
-			{"from": "T1", "to": "U1"},
-			{"from": "T1", "to": "U2"},
-			{"from": "T1", "to": "U3"}
-		]
-	},
-	"billing": {
-		"nodes": [
-			{
-				"@context": "https://schema.jillix.org/Billing",
-				"@type": "Billing",
-				"id": "B1",
-				"label": "Billing Acount A"
-			},
-			{
-				"@context": "https://schema.org/Organization",
-				"@type": "Organization",
-				"id": "O1",
-				"label": "jillix"
-			},
-			{
-				"@context": "https://schema.org/Person",
-				"@type": "Person",
-				"id": "U1",
-				"label": "Youser"
-			},
-			{
-				"@context": "https://schema.jillix.org/Project",
-				"@type": "Project",
-				"id": "P1",
-				"label": "Project A"
-			}
-		],
-		"edges": [
-			{"from": "B1", "to": "O1"},
-			{"from": "B1", "to": "U1"},
-			{"from": "B1", "to": "P1"}
-		]
-	},
-	"project": {
-		"nodes": [
-			{
-				"@context": "https://schema.jillix.org/Project",
-				"@type": "Project",
-				"id": "P1",
-				"label": "Project A"
-			},
-			{
-				"@context": "https://schema.jillix.org/Billing",
-				"@type": "Billing",
-				"id": "B1",
-				"label": "Billing Acount A"
-			},
-			{
-				"@context": "https://schema.org/Organization",
-				"@type": "Organization",
-				"id": "O1",
-				"label": "jillix"
-			},
-			{
-				"@context": "https://schema.org/Person",
-				"@type": "Person",
-				"id": "U1",
-				"label": "Youser"
-			}
-		],
-		"edges": [
-			{"from": "P1", "to": "B1"},
-			{"from": "P1", "to": "O1"},
-			{"from": "P1", "to": "U1"}
-		]
-	},
-	"domain": {
-		"nodes": [],
-		"edges": []
-	},
-	"store": {
-		"nodes": [],
-		"edges": []
-	},
-	"application": {
-		"nodes": [],
-		"edges": []
-	},
-	"module": {
-		"nodes": [],
-		"edges": []
-	},
-	"instance": {
-		"nodes": [],
-		"edges": []
-	},
-	"listener": {
-		"nodes": [],
-		"edges": []
-	},
-	"method": {
-		"nodes": [],
-		"edges": []
-	}
+	"nodes": [
+		{
+			"@context": "https://schema.org/Person",
+			"@type": "Person",
+			"id": "U1",
+			"title": "User 1",
+			"label": "User 1"
+		},
+		{
+			"@context": "https://schema.org/Person",
+			"@type": "Person",
+			"id": "U2",
+			"title": "User 2",
+			"label": "User 2"
+		},
+		{
+			"@context": "https://schema.org/Person",
+			"@type": "Person",
+			"id": "U3",
+			"title": "User 3",
+			"label": "User 3"
+		},
+		{
+			"@context": "https://schema.org/Organization",
+			"@type": "Organization",
+			"id": "O1",
+			"title": "Organization 1",
+			"label": "Organization 1"
+		},
+		{
+			"@context": "https://schema.jillix.org/Team",
+			"@type": "Team",
+			"id": "T1",
+			"title": "Team 1",
+			"label": "Team 1"
+		},
+		{
+			"@context": "https://schema.jillix.org/Billing",
+			"@type": "Billing",
+			"id": "B1",
+			"title": "Billing 1",
+			"label": "Billing 1"
+		},
+		{
+			"@context": "https://schema.jillix.org/Project",
+			"@type": "Project",
+			"id": "P1",
+			"title": "Project 1",
+			"label": "Project 1"
+		},
+		{
+			"@context": "https://schema.jillix.org/Billing",
+			"@type": "Domain",
+			"id": "D1",
+			"title": "Domain 1",
+			"label": "Domain 1"
+		},
+		{
+			"@context": "https://schema.jillix.org/Billing",
+			"@type": "Store",
+			"id": "S1",
+			"title": "Store 1",
+			"label": "Store 1"
+		},
+		{
+			"@context": "https://schema.jillix.org/Billing",
+			"@type": "Application",
+			"id": "A1",
+			"title": "Application 1",
+			"label": "Application 1"
+		},
+		{
+			"@context": "https://schema.jillix.org/Billing",
+			"@type": "Version",
+			"id": "V1",
+			"title": "Version 1",
+			"label": "Version 1"
+		},
+		{
+			"@context": "https://schema.jillix.org/Billing",
+			"@type": "Module",
+			"id": "M1",
+			"title": "Module 1",
+			"label": "Module 1"
+		},
+		{
+			"@context": "https://schema.jillix.org/Billing",
+			"@type": "Instance",
+			"id": "I1",
+			"title": "Instance 1",
+			"label": "Instance 1"
+		},
+		{
+			"@context": "https://schema.jillix.org/Billing",
+			"@type": "Listener",
+			"id": "L1",
+			"title": "Listener 1",
+			"label": "Listener 1"
+		},
+		{
+			"@context": "https://schema.jillix.org/Billing",
+			"@type": "Method",
+			"id": "F1",
+			"title": "Method 1",
+			"label": "Method 1"
+		}
+	],
+	"edges": [
+		{"from": "U1", "to": "O1"},
+		{"from": "U1", "to": "P1"},
+		{"from": "U1", "to": "B1"},
+		{"from": "U1", "to": "T1"},
+		{"from": "U2", "to": "T1"},
+		{"from": "U3", "to": "T1"},
+		{"from": "T1", "to": "O1"},
+		{"from": "P1", "to": "A1"},
+		{"from": "P1", "to": "D1"},
+		{"from": "P1", "to": "S1"},
+		{"from": "P1", "to": "B1"},
+		{"from": "A1", "to": "V1"},
+		{"from": "V1", "to": "M1"},
+		{"from": "V1", "to": "I1"},
+		{"from": "M1", "to": "I1"},
+		{"from": "I1", "to": "L1"},
+		{"from": "L1", "to": "F1"},
+		{"from": "I1", "to": "F1"}
+	]
 }
