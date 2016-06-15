@@ -2,19 +2,17 @@
     "@context": {
         "id": "@id",
         "type": "@type",
-
+        "Application": "schema:WebApplication",
         "schema": "http://schema.org/",
-        "foaf": "http://xmlns.com/foaf/0.1/",
-        "dbpedia": "http://dbpedia.org/property/",
-
         "name": "schema:name",
         "slug": "schema:alternateName",
-        "active": "dbpedia:active",
         "author": {
             "@id": "schema:author",
             "@type": "@id"
         },
-
-        "Project": "foaf:Project"
+        "partOfProject": {
+            "@id": "schema:isPartOf",
+            "@type": "@id"
+        }
     }
 }

@@ -1,5 +1,36 @@
 {
-	"@context": {
-		"name": "http://schema.org/name"
-	}
+    "@context": {
+        "id": "@id",
+        "type": "@type",
+
+        "sec": "https://w3id.org/security#",
+        "schema": "http://schema.org/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "dbpedia": "http://dbpedia.org/property/",
+
+        "Person": "schema:Person",
+
+        "familyName": "schema:familyName",
+        "givenName": "schema:givenName",
+        "name": "schema:name",
+        "email": {
+            "@id": "schema:email",
+            "@type": "@id"
+        },
+        "image": {
+            "@id": "schema:image",
+            "@type": "@id"
+        },
+        "username": "schema:alternateName",
+        "value": "schema:value",
+        "active": "dbpedia:active",
+        "primary": "dbpedia:primary",
+        "website": {
+            "@id": "schema:website",
+            "@type": "@id"
+        },
+        "address": "schema:address",
+        "worksFor": "schema:worksFor",
+        "password": "sec:password"
+    }
 }
