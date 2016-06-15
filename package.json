@@ -1,0 +1,23 @@
+{
+  "name": "schema",
+  "version": "0.1.0",
+  "description": "JSON-LD contexts for jillix service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jillix/schema.git"
+  },
+  "keywords": [
+    "jillix",
+    "service"
+  ],
+  "author": "jillix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jillix/schema/issues"
+  },
+  "homepage": "https://github.com/jillix/schema#readme"
+}
