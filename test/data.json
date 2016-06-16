@@ -76,54 +76,20 @@
 			"id": "V1",
 			"title": "Version 1",
 			"label": "Version 1"
-		},
-		{
-			"@context": "https://schema.jillix.org/Billing",
-			"@type": "Module",
-			"id": "M1",
-			"title": "Module 1",
-			"label": "Module 1"
-		},
-		{
-			"@context": "https://schema.jillix.org/Billing",
-			"@type": "Instance",
-			"id": "I1",
-			"title": "Instance 1",
-			"label": "Instance 1"
-		},
-		{
-			"@context": "https://schema.jillix.org/Billing",
-			"@type": "Listener",
-			"id": "L1",
-			"title": "Listener 1",
-			"label": "Listener 1"
-		},
-		{
-			"@context": "https://schema.jillix.org/Billing",
-			"@type": "Method",
-			"id": "F1",
-			"title": "Method 1",
-			"label": "Method 1"
 		}
 	],
 	"edges": [
-		{"from": "U1", "to": "O1"},
-		{"from": "U1", "to": "P1"},
-		{"from": "U1", "to": "B1"},
-		{"from": "U1", "to": "T1"},
-		{"from": "U2", "to": "T1"},
-		{"from": "U3", "to": "T1"},
-		{"from": "T1", "to": "O1"},
-		{"from": "P1", "to": "A1"},
-		{"from": "P1", "to": "D1"},
-		{"from": "P1", "to": "S1"},
-		{"from": "P1", "to": "B1"},
-		{"from": "A1", "to": "V1"},
-		{"from": "V1", "to": "M1"},
-		{"from": "V1", "to": "I1"},
-		{"from": "M1", "to": "I1"},
-		{"from": "I1", "to": "L1"},
-		{"from": "L1", "to": "F1"},
-		{"from": "I1", "to": "F1"}
+		{"from": "U1", "to": "P1", "label": "project"},
+		{"from": "O1", "to": "B1", "label": "billing"},
+		{"from": "U1", "to": "B1", "label": "billing"},
+		{"from": "U1", "to": "T1", "label": "team"},
+		{"from": "U2", "to": "T1", "label": "team"},
+		{"from": "U3", "to": "T1", "label": "team"},
+		{"from": "O1", "to": "T1", "label": "team"},
+		{"from": "P1", "to": "A1", "label": "application"},
+		{"from": "P1", "to": "D1", "label": "domain"},
+		{"from": "P1", "to": "S1", "label": "store"},
+		{"from": "B1", "to": "P1", "label": "project"},
+		{"from": "A1", "to": "V1", "label": "version"}
 	]
 }
