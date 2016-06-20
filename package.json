@@ -1,7 +1,7 @@
 {
   "name": "schema",
-  "version": "0.1.0",
-  "description": "JSON-LD contexts for jillix service",
+  "version": "0.0.1",
+  "description": "jillix JSON-LD schemas",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "jillix",
-    "service"
+    "json-ld",
+	"schemas"
   ],
   "author": "jillix",
   "license": "MIT",
