@@ -1,17 +1,17 @@
 // Schema dependencies
 var schemas = {
-    billing: require('./schemas/billing'),
-    domain: require('./schemas/domain'),
-    instance: require('./schemas/instance'),
-    listener: require('./schemas/listener'),
-    method: require('./schemas/method'),
-    module: require('./schemas/module'),
-    organization: require('./schemas/organization'),
-    process: require('./schemas/process'),
-    project: require('./schemas/project'),
-    store: require('./schemas/store'),
-    user: require('./schemas/user'),
-    application: require('./schemas/application')
+    'billing.jsonld': require('./schemas/billing'),
+    'domain.jsonld': require('./schemas/domain'),
+    'instance.jsonld': require('./schemas/instance'),
+    'listener.jsonld': require('./schemas/listener'),
+    'method.jsonld': require('./schemas/method'),
+    'module.jsonld': require('./schemas/module'),
+    'organization.jsonld': require('./schemas/organization'),
+    'process.jsonld': require('./schemas/process'),
+    'project.jsonld': require('./schemas/project'),
+    'store.jsonld': require('./schemas/store'),
+    'user.jsonld': require('./schemas/user'),
+    'application.jsonld': require('./schemas/application')
 };
 
 function get(options, data, next) {
