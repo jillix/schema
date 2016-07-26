@@ -1,11 +1,70 @@
 {
     "@context": {
-        "name": "http://schema.org/name",
-		"module": "https://schema.jillix.com/module",
-		"listeners": "https://schema.jillix.com/listener",
-		"roles": "http://schema.org/role",
-		"config": "http://schema.org/object",
-		"load": "https://schema.jillix.com/listener"
-	},
-    "@id": "https://schema.jillix.com/instance"
+        "schema": "http://schema.org/",
+        "jillix": "http://localhost:8080/vocab/",
+        "name": "@id",
+        "ModuleInstanceConfig": {
+            "@id": "jillix:ModuleInstanceConfig"
+        },
+        "FlowListener": {
+            "@id": "jillix:FlowListener"
+        },
+        "DataHandler": {
+            "@id": "jillix:DataHandler"
+        },
+        "FlowEvent": {
+            "@id": "jillix:FlowEvent"
+        },
+        "StreamHandler": {
+            "@id": "jillix:StreamHandler"
+        },
+        "module": {
+            "@id": "jillix:module",
+            "@type": "@id"
+        },
+        "roles": {
+            "@id": "jillix:roles"
+        },
+        "config": {
+            "@id": "jillix:config"
+        },
+        "flowListeners": {
+            "@id": "jillix:flowListeners"
+        },
+        "onLoad": {
+            "@id": "jillix:onLoad"
+        },
+        "onError": {
+            "@id": "jillix:onError"
+        },
+        "onEnd": {
+            "@id": "jillix:onEnd"
+        },
+        "handlers": {
+            "@id": "jillix:handlers"
+        },
+        "method": {
+            "@id": "jillix:method",
+            "@type": "@id"
+        },
+        "instance": {
+            "@id": "jillix:instance",
+            "@type": "@id"
+        },
+        "methodOptions": {
+            "@id": "jillix:methodOptions"
+        },
+        "listener": {
+            "@id": "jillix:listener",
+            "@type": "@id"
+        },
+        "stream": {
+            "@id": "jillix:stream",
+            "@type": "@id"
+        },
+        "streamOptions": {
+            "@id": "jillix:streamOptions"
+        }
+    },
+    "@id": "https://schema.jillix.com/context/instance.jsonld"
 }
