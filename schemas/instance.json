@@ -1,7 +1,7 @@
 {
     "@context": {
         "schema": "http://schema.org/",
-        "jillix": "http://localhost:8080/vocab/",
+        "jillix": "http://schema.jillix.net/vocab/",
         "name": "@id",
         "ModuleInstanceConfig": {
             "@id": "jillix:ModuleInstanceConfig"
