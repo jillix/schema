@@ -44,8 +44,7 @@
             "@id": "jillix:handlers"
         },
         "method": {
-            "@id": "jillix:method",
-            "@type": "@id"
+            "@id": "jillix:method"
         },
         "instance": {
             "@id": "jillix:instance",
@@ -59,8 +58,7 @@
             "@type": "@id"
         },
         "stream": {
-            "@id": "jillix:stream",
-            "@type": "@id"
+            "@id": "jillix:stream"
         },
         "streamOptions": {
             "@id": "jillix:streamOptions"

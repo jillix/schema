@@ -1,9 +1,36 @@
 {
-	"@context": {
-		"name": "http://schema.org/name",
-		"source": "http://schema.org/SoftwareSourceCode",
-		"package": "http://schema.org/SoftwareApplication",
-		"exports": "https://schema.jillix.com/method"
-	},
-	"@id": "https://schema.jillix.com/module"
+    "@context": {
+        "jillix": "http://schema.jillix.net/vocab/",
+        "schema": "http://schema.org/",
+        "xsd": "https://www.w3.org/TR/xmlschema11-2/#",
+        "Module": {
+            "@id": "schema:SoftwareSourceCode"
+        },
+        "name": {
+            "@id": "schema:name"
+        },
+        "author": {
+            "@id": "schema:author"
+        },
+        "description": {
+            "@id": "schema:description"
+        },
+        "version": {
+            "@id": "schema:softwareVersion"
+        },
+        "gitRepository": {
+            "@id": "schema:codeRepository",
+            "@type": "@id"
+        },
+        "exports": {
+            "@id": "http://dbpedia.org/property/exports"
+        },
+        "DataHandler": {
+            "@id": "jillix:DataHandler"
+        },
+        "options": {
+            "@id": "http://dbpedia.org/property/options"
+        }
+    },
+    "@id": "http://schema.jillix.net/context/module.jsonld"
 }
