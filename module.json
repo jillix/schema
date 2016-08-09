@@ -2,16 +2,22 @@
     "@context": [
         "http://localhost:8080/context/module.jsonld",
         {
+            "name": "http://schema.org/name"
         }
     ],
     "@id": "https://github.com/jillix/schema#readme",
     "@type": "Module",
     "name": "schema",
     "version": "0.0.1",
-    "description": "Example module for flow",
+    "description": "jillix JSON-LD schemas.",
     "author": "jillix",
     "gitRepository": "git+https://github.com/jillix/schema.git",
     "exports": [
+        {
+            "@type": "DataHandler",
+            "name": "get",
+            "options": []
+        }
     ],
     "options": [
     ]
