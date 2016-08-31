@@ -28,8 +28,11 @@
         "DataHandler": {
             "@id": "jillix:DataHandler"
         },
-        "options": {
-            "@id": "http://dbpedia.org/property/options"
+        "StreamHandler": {
+            "@id": "jillix:StreamHandler"
+        },
+        "args": {
+            "@id": "jillix:args"
         }
     },
     "@id": "http://schema.jillix.net/context/module.jsonld"
