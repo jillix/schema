@@ -24,9 +24,6 @@
         "roles": {
             "@id": "jillix:roles"
         },
-        "config": {
-            "@id": "jillix:config"
-        },
         "event": {
             "@id": "jillix:event"
         },
