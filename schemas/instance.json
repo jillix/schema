@@ -41,8 +41,12 @@
         "sequence": {
             "@id": "jillix:sequence"
         },
-        "method": {
-            "@id": "jillix:method",
+        "dataHandler": {
+            "@id": "jillix:dataHandler",
+            "@type": "@id"
+        },
+        "streamHandler": {
+            "@id": "jillix:streamHandler",
             "@type": "@id"
         },
         "instance": {
