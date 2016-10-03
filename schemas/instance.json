@@ -17,6 +17,9 @@
         "StreamHandler": {
             "@id": "jillix:StreamHandler"
         },
+        "Sequence": {
+            "@id": "jillix:Sequence"
+        },
         "module": {
             "@id": "jillix:module",
             "@type": "@id"
@@ -25,7 +28,8 @@
             "@id": "jillix:roles"
         },
         "event": {
-            "@id": "jillix:event"
+            "@id": "jillix:event",
+            "@type": "@id"
         },
         "onLoad": {
             "@id": "jillix:onLoad"
@@ -39,7 +43,8 @@
             "@type": "@id"
         },
         "sequence": {
-            "@id": "jillix:sequence"
+            "@id": "jillix:sequence",
+            "@type": "@id"
         },
         "dataHandler": {
             "@id": "jillix:dataHandler",
