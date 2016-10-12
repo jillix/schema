@@ -50,6 +50,10 @@
             "@id": "jillix:dataHandler",
             "@type": "@id"
         },
+        "onceHandler": {
+            "@id": "jillix:onceHandler",
+            "@type": "@id"
+        },
         "streamHandler": {
             "@id": "jillix:streamHandler",
             "@type": "@id"
